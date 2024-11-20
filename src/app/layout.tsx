@@ -1,7 +1,7 @@
 import './globals.css';
 import { NextIntlClientProvider } from 'next-intl';
 import { getLocale, getMessages } from 'next-intl/server';
-import LocaleSwitcher from './components/LocaleSwitcher';
+import LocaleSwitcher from '../components/LocaleSwitcher';
 
 import { IBM_Plex_Serif } from 'next/font/google';
 import { Metadata } from 'next';
